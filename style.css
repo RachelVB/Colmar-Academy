@@ -124,10 +124,6 @@ div .button {
 
 /* Second Section */
 
-/* div.second-left {
-  margin-right: -11rem;
-} */
-
 .second-left {
   display: flex;
   flex-direction: column;
@@ -138,7 +134,7 @@ div .button {
 .second-left img {
   /* For some reason, when I set this img to 60%, 
   it was larger then the img above it in the first section.  */
-  width: 42%;
+  width: 46%;
   margin-left: 1.5rem;
 }
 
@@ -175,8 +171,14 @@ div .button {
   flex-direction: column;
   align-content: flex-start;
   margin-left: -42rem;
+  margin-right: 3.5rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  background-color: whitesmoke;
+}
+
+.second-left {
+  background-color: whitesmoke;
 }
 
 .orientation {
@@ -185,7 +187,12 @@ div .button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
+}
+
+.orientation img {
+  height: auto;
+  width: 35%;
 }
 
 .campus {
@@ -194,7 +201,12 @@ div .button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
+}
+
+.campus img {
+  height: auto;
+  width: 35%;
 }
 
 .lecture {
@@ -203,14 +215,154 @@ div .button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
+}
+
+.lecture img {
+  height: auto;
+  width: 35%;
 }
 
 .description {
   padding-left: 4rem;
+  width: 65%;
 }
 
 .second-right h2 {
   font-size: 2rem;
   font-weight: bold;
+  padding-bottom: .5rem;
+}
+
+.second-right h4 {
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.second-right p {
+  color: darkslateblue;
+  font-size: 1.25rem;
+  padding-top: 1.5rem;
+}
+
+/* Start Learning Section */
+
+.learning-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.center-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  width: 80rem;
+}
+
+/* .learning-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+} */
+
+.section-image img {
+  height: auto;
+  width: 20rem;
+}
+
+/* Software Engineering */
+
+.learn-one {
+  width: 20rem;
+  padding-right: 2rem;
+}
+
+.learn-one .description {
+  padding-left: 1rem;
+}
+
+.learn-one h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+/* Computer Arts */
+
+.learn-two {
+  width: 20rem;
+  padding-right: 2rem;
+}
+
+.learn-two .description {
+  padding-left: 1rem;
+}
+
+.learn-two h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+/* Design */
+
+.learn-three {
+  width: 20rem;
+  padding-right: 2rem;
+}
+
+.learn-three .description {
+  padding-left: 1rem;
+}
+
+.learn-three h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+/* Data */
+
+.learn-four {
+  width: 20rem;
+  padding-right: 2rem;
+}
+
+.learn-four .description {
+  padding-left: 1rem;
+}
+
+.learn-four h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+/* Business */
+
+.learn-five {
+  width: 20rem;
+  padding-right: 2rem;
+}
+
+.learn-five .description {
+  padding-left: 1rem;
+}
+
+.learn-five h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+/* Marketing */
+
+.learn-six {
+  width: 20rem;
+  padding-right: 2rem;
+}
+
+.learn-six .description {
+  padding-left: 1rem;
+}
+
+.learn-six h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
 }
