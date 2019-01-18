@@ -6,14 +6,16 @@
   <title>ColmarAcademy</title>
   <link rel="stylesheet" type="text/css" href="/Colmar-Academy/reset.css">
   <link rel="stylesheet" type="text/css" href="/Colmar-Academy/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 </head>
 <body>
   <!-- Nav Bar -->
-    <header>
+  <header>
         <nav class="container">
           <div class="top-logo">
               <img src="/Colmar-Academy/resources/Images/ic-logo.svg" alt="top logo">
-              <span><strong>Colmar</strong>Academy</span>
+              <span class="title"><strong>Colmar</strong>Academy</span>
           </div>
             <div class="menu">
               <ul>
@@ -24,8 +26,17 @@
               </ul>
           </div>
         </nav>
+        <nav class="mobile">
+          <ul class="mobilenav">
+            <li><img src="/Colmar-Academy/resources/Images/ic-logo.svg" alt="logo"></li>
+            <li><img src="/Colmar-Academy/resources/Images/ic-on-campus.svg" alt="on Campus"></li>
+            <li><img src="/Colmar-Academy/resources/Images/ic-online.svg" alt="online"></li>
+            <li><img src="/Colmar-Academy/resources/Images/ic-login.svg" alt="login"></li>
+          </ul>
+        </nav>
+      </header>
         <!-- Top Banner -->
-        <div class="container">
+        <div class="container main">
           <div class="banner-image">
             <img src="/Colmar-Academy/resources/Images/banner.jpg" alt="girls studying in park">
           </div>
@@ -36,7 +47,7 @@
           </div>
         </div>
         <!-- Second Section -->
-        <div class="container">
+        <div class="container second">
           <div class="second-left">
             <img src="/Colmar-Academy/resources/Images/information-main.jpg" alt="man reading book in park">
             <h1>It doesn't hurt to keep practicing</h1>
@@ -75,34 +86,40 @@
         </div>
         <!-- Start Learning Section -->
         
-        <div class="container">
-            <div class="learning-header">
-              <h1>Start Learning</h1>
-            </div>
+        <div class="container third">
           <!-- Software Engineering -->
+          <div class="learning-header">
+              <h1>Start Learning</h1>
+          
             <div class="center-section">
-              <div class="learn-one">
-                <div class="section-image">
-                  <img src="/Colmar-Academy/resources/Images/course-software.jpg" />
-                </div>
-                <div class="description">
-                  <h4>Software Engineering</h4>
-                  <h5>Courses</h5>
-                  <p>Web Development, Mobile Development, iOT, APIs</p>
-                </div>
+
+              <div class="software">
+                <div class="learn-one">
+              <div class="section-image">
+              <img src="/Colmar-Academy/resources/Images/course-software.jpg" />
               </div>
+              <div class="description">
+              <h4>Software Engineering</h4>
+              <h5>Courses</h5>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+              </div>
+            </div>
               <!-- Computer Art -->
-              <div class="learn-two">
-                <div class="section-image">
-                  <img src="/Colmar-Academy/resources/Images/course-computer-art.jpg" />
-                </div>
-                <div class="description">
-                    <h4>Computer Art</h4>
-                    <h5>Courses</h5>
-                    <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-                </div>
+              <div class="computer">
+                <div class="learn-two">
+              <div class="section-image">
+              <img src="/Colmar-Academy/resources/Images/course-computer-art.jpg" />
               </div>
+              <div class="description">
+              <h4>Computer Art</h4>
+              <h5>Courses</h5>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              </div>
+              </div>
+            </div>
               <!-- Design -->
+              <div class="design">
               <div class="learn-three">
                 <div class="section-image">
                   <img src="/Colmar-Academy/resources/Images/course-design.jpg" />
@@ -113,7 +130,9 @@
                     <p>User Experience Design, User Research, Visual Design</p>
                 </div>
               </div>
+            </div>
               <!-- Data -->
+              <div class="data">
               <div class="learn-four">
                   <div class="section-image">
                     <img src="/Colmar-Academy/resources/Images/course-data.jpg" />
@@ -124,7 +143,9 @@
                     <p>Data Science, Big Data, SQL, Data Visualization</p>
                 </div>
                 </div>
+              </div>
                 <!-- Business -->
+                <div class="business">
                 <div class="learn-five">
                   <div class="section-image">
                     <img src="/Colmar-Academy/resources/Images/course-business.jpg" />
@@ -135,7 +156,9 @@
                       <p>Product Development, Business Development, Startup</p>
                   </div>
                 </div>
+              </div>
                 <!-- Marketing -->
+                <div class="marketing">
                 <div class="learn-six">
                   <div class="section-image">
                     <img src="/Colmar-Academy/resources/Images/course-marketing.jpg" />
@@ -147,12 +170,18 @@
                   </div>
                 </div>
               </div>
+
+              </div>
             </div>
+          </div>
               <!-- Last Container -->
               <div class="container">
+                  <div class="thesis-header">
+                      <h2>Thesis Exhibit</h2>
+                      <div class="bottom-section">
                 <!-- Last Side Section Video -->
                   <div class="last-left">
-                    <img src="/Colmar-Academy/resources/Video/thesis.mp4" alt="video">
+                    <video autoplay loop muted src="/Colmar-Academy/resources/Video/thesis.mp4"></video>
                     <h1>Reimagine Urban</h1>
                     <p>"Curabitur vitae libero in ipsum porttoir consequat. Aliquam et commondo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristque ligula.</p>
                   </div>
@@ -160,28 +189,36 @@
                     <!-- Last Side Section 1 -->
                     <div class="fisma">
                       <img src="/Colmar-Academy/resources/Images/thesis-fisma.jpg" alt="Papers on desk">
-                      <h2>Fisma: Design and Prototype</h2>
-                      <p>Designer showcase of new prototype product</p>
+                      <div class="descrip">
+                        <h3>Fisma: Design and Prototype</h3>
+                        <p>Designer showcase of new prototype product</p></div>
                     </div>
                     <!-- Last Side Section 2 -->
                     <div class="now-then">
                         <img src="/Colmar-Academy/resources/Images/thesis-now-and-then.jpg" alt="City view">
-                        <h2>Now and Then</h2>
-                        <p>Research study about New York</p>
+                        <div class="descrip">
+                          <h3>Now and Then</h3>
+                          <p>Research study about New York</p>
+                        </div>
                     </div>
                   </div>
                 </div>
+                </div>
+              </div>
                 <!-- Footer -->
                 <footer>
                     <div class="container">
-                     <span class="copyright">2016 Colmar Academy. All rights reserved</span>
+                     <div class="btm-section">
+                       <span class="copyright">2016 Colmar Academy. All rights reserved</span>
                      <div class="bottom-nav">
-                       <ul>
-                         <li>Terms</li>
-                         <li>Privacy</li>
-                       </ul>
+                     <ul>
+                     <li>Terms</li>
+                     <li>Privacy</li>
+                     </ul>
+                    </div>
                      </div>
                     </div>
                   </footer>
+
 </body>
 </html>
