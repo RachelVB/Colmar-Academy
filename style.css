@@ -146,6 +146,7 @@ div .banner-image {
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   width: 100rem;
 }
 
@@ -585,6 +586,10 @@ footer .copyright{
 
 @media only screen and (max-width: 500px) {
 
+  .container {
+    width: 500px;
+  }
+
   /* Nav Bar */
   .menu {
     display: none;
@@ -608,6 +613,11 @@ footer .copyright{
     justify-content: flex-start;
     max-width: 30rem;
     margin-left: 0rem;
+  }
+
+  .banner-image {
+    width: fit-content;
+    width: 31rem;
   }
 
   .banner-image img {
@@ -642,8 +652,9 @@ footer .copyright{
   }
 
   .second-right {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
+    padding-left: 3rem;
   }
 
   .second-right .orientation {
@@ -680,7 +691,7 @@ footer .copyright{
   /* Start Learning Section */
 
   .learning-header {
-    width: 65%;
+    margin: 0 auto;
   }
 
   .learning-header h1 {
@@ -691,7 +702,7 @@ footer .copyright{
   .center-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    margin: 0 auto;
     max-width: 23rem;
   }
 
@@ -769,6 +780,10 @@ footer .copyright{
   .thesis-header h2 {
     text-align: center;
     width: 25rem;
+  }
+
+  .bottom-section {
+    margin-left: 2rem;
   }
 
   .last-right {
