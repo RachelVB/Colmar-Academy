@@ -5,7 +5,7 @@ html {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
 }
@@ -103,14 +103,14 @@ div .banner-image {
   flex-direction: column;
   justify-content: center;
   align-content: flex-start;
-  width: 45rem;
+  max-width: 30.5rem;
 }
 
 .banner-text h1 {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: left;
-  width: 40rem;
+  
 }
 
 .banner-text h3 {
@@ -128,10 +128,6 @@ div .banner-image {
   text-align: center;
   width: 19rem;
   font-size: 2rem;
-}
-
-div .button {
-  margin-left: 7rem;
 }
 
 .banner-image {
@@ -156,8 +152,9 @@ div .button {
 .second-left img {
   /* For some reason, when I set this img to 60%, 
   it was larger then the img above it in the first section.  */
-  width: 46%;
+  
   margin-left: 1.5rem;
+  max-width: 675px;
 }
 
 .second-left h1 {
@@ -174,7 +171,7 @@ div .button {
   text-align: left;
   font-size: 1.5rem;
   padding-left: 2rem;
-  width: 50%;
+  max-width: 40rem;
   line-height: 1.75rem;
   font-style: italic;
 }
@@ -192,10 +189,11 @@ div .button {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  margin-left: -42rem;
+  justify-content: space-around;
   margin-right: 3.5rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  padding-right: 4rem;
   background-color: whitesmoke;
 }
 
@@ -210,6 +208,8 @@ div .button {
   padding-bottom: 1rem;
   padding-left: 1rem;
   border: 1px solid lightgrey;
+  max-width: 70rem;
+  padding-right: 1rem;
 }
 
 .orientation img {
@@ -224,6 +224,8 @@ div .button {
   padding-bottom: 1rem;
   padding-left: 1rem;
   border: 1px solid lightgrey;
+  max-width: 70rem;
+  padding-right: 1rem;
 }
 
 .campus img {
@@ -237,7 +239,9 @@ div .button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
   border: 1px solid lightgrey;
+  max-width: 70rem;
 }
 
 .lecture img {
@@ -272,6 +276,7 @@ div .button {
 .learning-header {
   background-color: lightgray;
   width: 104.5rem;
+  margin-right: 3.75rem;
 }
 
 .learning-header h1 {
@@ -285,9 +290,8 @@ div .button {
 .center-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 12rem;
-  width: 80rem;
+  justify-content: flex-end;
+  max-width: 80rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: lightgray;
@@ -482,7 +486,7 @@ div .button {
 /* Last Side Section Video */
 
 video {
-  width: 60%;
+  max-width: 50rem;
   padding-left: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -500,7 +504,7 @@ video {
   padding-bottom: 2rem;
   text-align: left;
   padding-left: 1.5rem;
-  width: 60rem;
+  max-width: 60rem;
 }
 
 .bottom-section {
@@ -508,7 +512,6 @@ video {
 }
 
 .last-right {
-  margin-left: -42rem;
   margin-right: 3.5rem;
   padding-left: 1.5rem;
   width: 40%;
@@ -603,7 +606,7 @@ footer .copyright{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 20rem;
+    max-width: 30rem;
     margin-left: 0rem;
   }
 
@@ -676,8 +679,8 @@ footer .copyright{
 
   /* Start Learning Section */
 
-  .third .learning-header {
-    width: 30rem;
+  .learning-header {
+    width: 65%;
   }
 
   .learning-header h1 {
@@ -689,8 +692,7 @@ footer .copyright{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 4rem;
-    width: 23rem;
+    max-width: 23rem;
   }
 
   .section-image {
