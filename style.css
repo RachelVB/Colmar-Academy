@@ -811,8 +811,12 @@ footer .copyright{
 
   /* Footer */
 
+  footer {
+    margin: 2rem;
+  }
+
   footer .base {
-    margin-left: 20rem;
+    margin-left: 0;
   }
 
   footer .bottom-nav {
