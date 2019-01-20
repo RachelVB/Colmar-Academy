@@ -811,6 +811,10 @@ footer .copyright{
 
   /* Footer */
 
+  footer .base {
+    margin-left: 20rem;
+  }
+
   footer .bottom-nav {
     display: none;
   }
@@ -820,8 +824,7 @@ footer .copyright{
   }
 
   footer .copyright {
-    display: flex;
-    justify-content: flex-start;
+    margin: 0 auto;
   }
 
 }
