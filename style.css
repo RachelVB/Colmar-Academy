@@ -707,7 +707,7 @@ footer .copyright{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 23rem;
+    max-width: 20rem;
   }
 
   .section-image {
@@ -811,6 +811,10 @@ footer .copyright{
 
   footer .bottom-nav {
     display: none;
+  }
+
+  .btm-section {
+    max-width: 500px;
   }
 
 }
