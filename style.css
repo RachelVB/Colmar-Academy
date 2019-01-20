@@ -564,6 +564,8 @@ footer {
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 3rem;
+  width: 90rem;
+  margin-left: 15rem;
 }
 
 .btm-section {
@@ -815,6 +817,11 @@ footer .copyright{
 
   .btm-section {
     max-width: 500px;
+  }
+
+  footer .copyright {
+    display: flex;
+    justify-content: flex-start;
   }
 
 }
